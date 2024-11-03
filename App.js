@@ -1,17 +1,17 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-import CaptureCamera from './src/CaptureCamera'
-import VideoRecording from './src/VideoRecording'
+import {StyleSheet, Text, View} from 'react-native';
+import React from 'react';
+import CaptureCamera from './src/CaptureCamera';
+import VideoRecording from './src/VideoRecording';
 
 const App = () => {
   return (
-    <View style={{flex:1}}>
+    <View style={{backgroundColor: '#ffffff', flex: 1}}>
       {/* <CaptureCamera/> */}
-      <VideoRecording/>
+      <VideoRecording />
     </View>
-  )
-}
+  );
+};
 
-export default App
+export default App;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});
